@@ -1,1 +1,16 @@
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
+title: Kaggle Airline Cancellation Analysis
+description: description Kaggle Airline Cancellation Analysis description
+show_downloads: True
+
+header_pages:
+  - index.md
+  - README.md
+
+navigation:
+  - title: Home
+    url: text
+  - title: References
+    url: text#references
+  - title: Setup
+    url: setup
