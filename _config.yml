@@ -5,16 +5,16 @@ var: Ayush
 
 navigation:
   - title: Home
-    url: README
+    url: /
   - title: Motivation
-    url: README#motivation
+    url: text#motivation
   - title: About the Data
-    url: README#about-the-data
+    url: text#about-the-data
   - title: Data Analysis
-    url: README#data-analysis
+    url: text#data-analysis
   - title: Glossary
-    url: README#glossary
+    url: text#glossary
   - title: Summary
-    url: README#summary
+    url: text#summary
   - title: References
-    url: README#references
+    url: text#references
