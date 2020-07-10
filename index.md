@@ -6,7 +6,7 @@ layout: default
         <h1 id="kaggle-airline-delay--cancellation-analysis">{{site.title}}</h1>
     </div>
     <div style="text-align: right;display: inline;cursor:pointer;float: right;right: -6px;" align="right"> 
-        <img src="images/next-page.png" href="/report">
+        <img src="images/next-page.png" href="/report" style="max-width: 50px">
     </div>
 </div>
 
