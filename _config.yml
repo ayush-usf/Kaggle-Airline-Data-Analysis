@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
 title: Kaggle Airline Delay & Cancellation Analysis
 description: Analyis of Domestic Airline Cancellation and Delays (2009-2018)
-description_detail: Every year Domestic US Airliness report losses of $ B due to delays and . This report is an ananlyis of these delays and cancellations and the resons behind it
+description_detail: Every year Domestic US Airliness report losses of $ B due to delays and cancellations. This report is an ananlyis of these delays and cancellations and the resons behind it
 
 navigation:
   - title: Home
