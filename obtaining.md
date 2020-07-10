@@ -2,8 +2,8 @@
 
 - #### Airline Cancellation/Delay (2009-2018) dataset
 
-    The main dataset i.e. <a target="_blank" href="https://www.kaggle.com/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018">Domestic Airline Cancellation/Delay (2009-2018)</a> dataset was obtained from Kaggle.
-    A total of 10 CSV files, each representing data for each year with size 700 each, were combined together to form the complete dataset.
+    The main dataset i.e. <a target="_blank" href="https://www.kaggle.com/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018">Domestic Airline Cancellation/Delay (2009-2018)</a> dataset was obtained from  <a target="_blank" href="https://www.kaggle.com">Kaggle</a>.
+    A total of 10 CSV files, each representing data for each year with size 700 MB each, were combined together to form the complete dataset.
     
     Each CSV file was downloaded individually and comboned together with a `python` script to form a wholesome 7 GB dataset.
 
