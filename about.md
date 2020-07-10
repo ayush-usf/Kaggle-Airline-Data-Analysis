@@ -45,12 +45,16 @@ LATE\_AIRCRAFT\_DELAY|Delay caused by aircraft reaching late|STRING|0.0
 <br>
 <br>
 
-## The following shows the relation between columns:
+## Fields Graph:
+- The following shows the relation between columns:
 
 <a href="images/kaggle-airline-data_origin_destination_colored.png" target="_blank"><img src="images/kaggle-airline-data_origin_destination_colored.png" style="min-width: 100px;"></a>
 
 
--   #### The Global Airport Database dataset):
+<br>
+<br>
+
+-   ## The Global Airport Database dataset):
 
 **Name**|**Type**|**Example**
 :-----:|:-----:|:-----:
@@ -71,17 +75,26 @@ Altitude (Altitude in meters from mean sea level)|Integer [-99999,+99999]|313
 Latitude Decimal Degrees |Floating point [-90,90]|33.64
 Longitude Decimal Degrees|Floating point [-180,180]|-84.427
 
-#### Fields Preview (Main Dataset):
+<br>
+<br>
 
-Set 1: 15/27 columns
-![](images/main_dataset_1.png)
+#### Fields Data Preview
 
-Set 2: Remaining 12/27 columns
-![](images/main_dataset_2.png)
+<details>
+    <summary>Main Dataset</summary>
+    Set 1: 15/27 columns
+    <a href="images/main_dataset_1.png" target="_blank"><img src="images/main_dataset_1.png" style="min-width: 1200px;"></a>
+    Set 2: Remaining 12/27 columns
+    <a href="images/main_dataset_2.png" target="_blank"><img src="images/main_dataset_2.png" style="min-width: 1200px;"></a>
 
-Fields Preview (Auxillary Dataset):
-![](images/aux_dataset_1.png)
+</details>
 
+<details>
+    <summary>Auxillary Dataset</summary>
+        <a href="images/aux_dataset_1.png" target="_blank"><img src="images/aux_dataset_1.png" style="min-width: 1200px;"></a>
+</details>
+
+<br>
 
 While going through the variables of the dataset, I realized that I could get some insightful answers for questions like what are the major reasons of cancellation/delay of flights, which region is mostly affected, is there any specific period when cancellations/delays happen the most, is the amount of cancellation/ delay distributed equally nationwide or does that change regions-wise, what reasons led to delay/cancellations region-wise, etc.
 
