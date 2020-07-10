@@ -1,9 +1,3 @@
-### Obtaining the Data & Preprocessing
----
-- #### Obtaining the Data: 
-Each CSV file was downloaded individually and kept in local storage unless uploaded to the cloud.
-- #### Preprocessing:
-As the sourced data was already cleaned and formatted, no preprocessing was involved.
 
 ### Storage :
 ---
@@ -27,6 +21,6 @@ While viewing real-time dashboards, It may jeopardize user experience and as a r
         <a href="about"><img src="images/prev-page.png" style="max-width: 50px"></a>
     </div>
     <div style="text-align: right;display: inline;cursor:pointer;float: right;right: -6px;" align="right"> 
-        <a href="analysis"><img src="images/next-page.png" style="max-width: 50px"></a>
+        <a href="ontaining"><img src="images/next-page.png" style="max-width: 50px"></a>
     </div>
 </div>

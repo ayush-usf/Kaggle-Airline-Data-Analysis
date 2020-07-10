@@ -2,11 +2,8 @@
 
 An amalgamation of 2 datasets have been used to generate the insights.
 
-- The main dataset has been sourced from <a target="_blank" href="https://www.kaggle.com">Kaggle</a>. 
-- An additional dataset with the metadata for Global Aiports has been fetched from Partow <a target="_blank" href="https://www.partow.net/miscellaneous/airportdatabase/">(The Global Airport Database)</a>. Only relevant information will be provided for the latter due to lesser importance.
-
-
-The main dataset i.e. <a target="_blank" href="https://www.kaggle.com/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018">Airline Cancellation/Delay (2009-2018)</a> was combined together form of multiple CSV files each representing data for each year. Overall, the main dataset was nearly 7 GB in size with nearly 68 million rows.
+- The main dataset has been sourced from <a target="_blank" href="https://www.kaggle.com">Kaggle</a>. Overall, the main dataset was nearly 7 GB in size with nearly 68 million rows.
+- An additional dataset with the metadata for Global Aiports has been fetched from <a target="_blank" href="https://www.partow.net">Partow</a>. Only relevant information will be provided for the latter due to lesser importance.
 
 ## Fields Descripton    
 
@@ -52,9 +49,13 @@ LATE\_AIRCRAFT\_DELAY|Delay caused by aircraft reaching late|STRING|0.0
 
 
 <br>
+<details>
+    <summary>Complete Fields Graph</summary>
+        <a href="images/kaggle-airline-data.png" target="_blank"><img src="images/kaggle-airline-data.png" style="min-width: 1200px;"></a>
+</details>
 <br>
 
--   ## The Global Airport Database dataset):
+-   ## The Global Airport Database dataset:
 
 **Name**|**Type**|**Example**
 :-----:|:-----:|:-----:
@@ -96,19 +97,13 @@ Longitude Decimal Degrees|Floating point [-180,180]|-84.427
 
 <br>
 
-### Complete Fields Graph
-<details>
-    <summary>Delay & Cancellation Dataset</summary>
-        <a href="images/kaggle-airline-data.png" target="_blank"><img src="images/kaggle-airline-data.png" style="min-width: 1200px;"></a>
-</details>
 
-<br>
 
 <div class="parent" style="display: inline-block;width: 100%;">
     <div class="header3" style="display: inline;float: left;width: 50%;">
         <a href="motivation"><img src="images/prev-page.png" style="max-width: 50px"></a>
     </div>
     <div style="text-align: right;display: inline;cursor:pointer;float: right;right: -6px;" align="right"> 
-        <a href="requirements"><img src="images/next-page.png" style="max-width: 50px"></a>
+        <a href="obtaining"><img src="images/next-page.png" style="max-width: 50px"></a>
     </div>
 </div>
