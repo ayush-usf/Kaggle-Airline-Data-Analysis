@@ -19,7 +19,7 @@ The North America contributed 22.4 per cent of world traffic in 2018
 <sup>[[2]](https://aviationbenefits.org/economic-growth/adding-value-to-the-economy/) </sup>.
 In 2018, North America's RPK (Revenue passenger-Kilometres) was 39.9 per cent of total RPK, posting growth of 5.2 per cent.
  
-The aviation industry plays major role in the global commerce, than just tourism. As per <a href="(https://www.investopedia.com/ask/answers/041315/how-much-revenue-airline-industry-comes-business-travelers-compared-leisure-travelers.asp">Investopedia</a>,
+The aviation industry plays major role in the global commerce, than just tourism. As per <a href="https://www.investopedia.com/ask/answers/041315/how-much-revenue-airline-industry-comes-business-travelers-compared-leisure-travelers.asp">Investopedia</a>,
 the big money that comes from business travelers outweights to those flying for leisure or personal reasonsas business passengers represent 75% of an airline's profits, on some flights.
 
 While the aviation industry in growing rapidly on a per year basis, their incurred losses are still high. 
@@ -27,7 +27,7 @@ One of the major contrbutors in these losses are the delays and cancellations oc
 Any minor or major flight delay or cancellation results in loss of thousands to 
 millions of dollars in revenues annually for both Airports as well as Airlines. 
 
-Thus for my project, I chose the [Kaggle dataset](https://www.kaggle.com) 
+Thus for my project, I chose the <a href="https://www.kaggle.com/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018">Kaggle dataset</a>
 that provided data points for the Delays and Cancellations for the time period of 
 2009 through 2018. As this dataset is very recent, one could get a real picture of 
 a very recent period.

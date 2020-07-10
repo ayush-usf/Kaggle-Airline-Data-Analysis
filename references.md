@@ -5,6 +5,6 @@
 
 <div class="parent" style="display: inline-block;width: 100%;">
     <div class="header3" style="display: inline;float: left;width: 50%;">
-        <a href="summary"><img src="images/prev-page.png" style="max-width: 50px"></a>
+        <a href="glossary"><img src="images/prev-page.png" style="max-width: 50px"></a>
     </div>
 </div>

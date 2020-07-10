@@ -1,19 +1,46 @@
-While going through the variables of the dataset, I realized that I could get some insightful answers for questions like what are the major reasons of cancellation/delay of flights, which region is mostly affected, is there any specific period when cancellations/delays happen the most, is the amount of cancellation/ delay distributed equally nationwide or does that change regions-wise, what reasons led to delay/cancellations region-wise, etc.
+# About the Data:
 
-If answers to such questions could be answered, this might help governments, airport authorities, airline organizations, or third party businesses who provide services on platforms built by airport and airline industries like advertising agencies and infotainment system providers to make smart decisions while providing any service to customers.
-The government could choose locations with the least delaying/ canceling factors to build the busiest airport in their country. With more footfall on such airports, airport authorities could make more revenue allowing more and more airlines willing to land their flights at such a big airport. With such humongous/ mammoth footfall advertising agencies could throw more advertisements to customers.
+An amalgamation of 2 datasets have been used to generate the insights.
 
-### About the Data:
+- The main dataset has been sourced from <a target="_blank" href="https://www.kaggle.com">Kaggle</a>. 
+- An additional dataset with the metadata for Global Aiports has been fetched from Partow <a target="_blank" href="https://www.partow.net/miscellaneous/airportdatabase/">(The Global Airport Database)</a>. Only relevant information will be provided for the latter due to lesser importance.
+
+
+The main dataset i.e. <a target="_blank" href="https://www.kaggle.com/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018">Airline Cancellation/Delay (2009-2018)</a> was combined together form of multiple CSV files each representing data for each year. Overall, the main dataset was nearly 7 GB in size with nearly 68 million rows.
+
+## Fields Descripton     
+**Name**|**Description**|**Type(Format)**|**Example**
+ :-----:|:-----:|:-----:|:-----:
+ FL\_DATE|Date of the flight|DATE (yy/mm/dd)|2009-05-02
+ OP\_CARRIER|Airline Identifier|STRING|9E
+ OP\_CARRIER\_FL\_NUM|Flight Number|INTEGER|2216
+ ORIGIN|Starting Airport Code (IATA Code)|STRING|MLI
+ DEST|Destination Airport Code (IATA Code)|STRING|MEM
+ CRS\_DEP\_TIME|Planned Departure Time|INTEGER|600
+ DEP\_TIME|Actual Departure Time|FLOAT|603.0
+ DEP\_DELAY|Total Delay on Departure in minutes|FLOAT|3.0 
+ TAXI\_OUT|The time duration elapsed between departure from the origin airport gate and wheels off|FLOAT|14.0 
+ WHEELS\_OFF|The time point that the aircraft's wheels leave the ground|FLOAT|617.0
+ WHEELS\_ON|The time point that the aircraft's wheels touch on the ground|FLOAT|757.0
+ TAXI\_IN|The time duration elapsed between wheels-on and gate arrival at the destination airport|FLOAT|8.0 
+ CRS\_ARR\_TIME|Planned arrival time|INTEGER|732
+ ARR\_TIME|Actual Arrival Time|FLOAT|805.0
+ ARR\_DELAY|Total Delay on Arrival in minutes|FLOAT|33.0 
+ CANCELLED|Flight Cancelled (1 = cancelled)|FLOAT|0.0
+ CANCELLATION\_CODE|Reason for Cancellation of flight: A - Airline/Carrier; B - Weather; C - National Air System; D - Security|STRING|D 
+ DIVERTED|Aircraft landed on airport that out of schedule|FLOAT|0.0
+ CRS\_ELAPSED\_TIME|Planned time amount needed for the flight trip|FLOAT|92.0 
+ ACTUAL\_ELAPSED\_TIME|AIR\_TIME+TAXI\_IN+TAXI\_OUT|FLOAT|122.0
+ AIR\_TIME|The time duration between wheels\_off and wheels\_on time|FLOAT|100.0 
+ DISTANCE|Distance between two airports|FLOAT|442.0
+ CARRIER\_DELAY|Delay caused by the airline in minutes|FLOAT|0.0 
+ WEATHER\_DELAY|Delay caused by weather|FLOAT|0.0
+ NAS\_DELAY|Delay caused by air system|FLOAT|33.0
+ SECURITY\_DELAY|Delay caused by security|FLOAT|0.0
+ LATE\_AIRCRAFT\_DELAY|Delay caused by aircraft reaching late|STRING|0.0
+
 ---
-The main dataset has been sourced from [Kaggle](https://www.kaggle.com/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018). Additional data with Aiport metadata has also been fetched from Partow [(The Global Airport Database)](https://www.partow.net/miscellaneous/airportdatabase/). Only relevant information will be provided for the latter due to low importance in the report.
-
-The main dataset i.e. [Airline Cancellation/Delay (2009-2018)](https://www.kaggle.com/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018) was fetched in the form of multiple CSV files each representing data for each year. Overall, it was nearly 7 GB in size with nearly 68 million rows, comprising of the following fields/columns:
-
-
-#### Fields (Airline Cancellation/Delay (2009-2018) dataset):
-![](images/main_data_set.png)
-
-#### Fields (The Global Airport Database dataset):
+-   The Global Airport Database dataset):
 
 **Name**|**Type**|**Example**
 :-----:|:-----:|:-----:
@@ -48,7 +75,13 @@ Fields Preview (Auxillary Dataset):
 #### Fields Graph:
 
 The following shows the relation between columns:
-![](images/kaggle-airline-data.png)
+<a href="requirements"><img src="images/kaggle-airline-data.png" style="min-width: 1000px;"></a>
+
+While going through the variables of the dataset, I realized that I could get some insightful answers for questions like what are the major reasons of cancellation/delay of flights, which region is mostly affected, is there any specific period when cancellations/delays happen the most, is the amount of cancellation/ delay distributed equally nationwide or does that change regions-wise, what reasons led to delay/cancellations region-wise, etc.
+
+If answers to such questions could be answered, this might help governments, airport authorities, airline organizations, or third party businesses who provide services on platforms built by airport and airline industries like advertising agencies and infotainment system providers to make smart decisions while providing any service to customers.
+The government could choose locations with the least delaying/ canceling factors to build the busiest airport in their country. With more footfall on such airports, airport authorities could make more revenue allowing more and more airlines willing to land their flights at such a big airport. With such humongous/ mammoth footfall advertising agencies could throw more advertisements to customers.
+
 
 ## Future Work
 
