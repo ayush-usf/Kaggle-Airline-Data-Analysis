@@ -21,3 +21,12 @@ For the main dataset, CSVs were appended to the same table to form the final tab
 
 - Choosing BigQuery : With such large data, obtaining results for even a small query takes nearly a minute or two in other database management systems. For complex queries, it might result in consuming 2-5 minutes. Such a huge latency might act as hurdles in business operations.
 While viewing real-time dashboards, It may jeopardize user experience and as a result, reduce user retention overall. While querying data for APIs, such long time will lead in losing customers.
+
+<div class="parent" style="display: inline-block;width: 100%;">
+    <div class="header3" style="display: inline;float: left;width: 50%;">
+        <a href="about"><img src="images/prev-page.png" style="max-width: 50px"></a>
+    </div>
+    <div style="text-align: right;display: inline;cursor:pointer;float: right;right: -6px;" align="right"> 
+        <a href="analysis"><img src="images/next-page.png" style="max-width: 50px"></a>
+    </div>
+</div>

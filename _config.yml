@@ -14,9 +14,9 @@ navigation:
     url: requirements
   - title: Data Analysis
     url: analysis
-  - title: Glossary
-    url: glossary
   - title: Summary
     url: summary
+  - title: Glossary
+    url: glossary
   - title: References
     url: references

@@ -67,3 +67,13 @@ A lot of extensive analysis has been carried out to gain insights from the data 
 
 - Most unreliable month in 2018 (Cancellations in ascending order)
 ![](images/unreliable_month_2018.png)
+
+
+<div class="parent" style="display: inline-block;width: 100%;">
+    <div class="header3" style="display: inline;float: left;width: 50%;">
+        <a href="requirements"><img src="images/prev-page.png" style="max-width: 50px"></a>
+    </div>
+    <div style="text-align: right;display: inline;cursor:pointer;float: right;right: -6px;" align="right"> 
+        <a href="summary"><img src="images/next-page.png" style="max-width: 50px"></a>
+    </div>
+</div>
