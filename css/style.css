@@ -1,5 +1,11 @@
 /* USING BOOTSTRAP 3.0.3 */
 body {
+  margin: 0!important;
+}
+.header-div{
+  width: 100%;
+  background-color: #159957;
+  background-image: linear-gradient(120deg, #155799, #159957);
   padding-top: 60px;
 }
 nav .navbar-brand {
