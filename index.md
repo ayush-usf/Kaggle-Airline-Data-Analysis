@@ -1,15 +1,14 @@
 ---
 layout: default
 ---
-<div class="parent" style="
-    display: inline-block;
-    width: 100%;
-"><div class="header3" style="
-    display: inline;
-    float: left;
-    width: 80%;
-"><h1 id="kaggle-airline-delay--cancellation-analysis">{{site.title}}</h1></div>
-<div style="text-align: right;display: inline;float: right;right: -6px;" align="right"> <img src="data:image/png;base64,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"></div></div>
+<div class="parent" style="display: inline-block;width: 100%;">
+    <div class="header3" style="display: inline;float: left;width: 80%;">
+        <h1 id="kaggle-airline-delay--cancellation-analysis">{{site.title}}</h1>
+    </div>
+    <div style="text-align: right;display: inline;float: right;right: -6px;" align="right"> 
+        ![](images/next-page.png)
+    </div>
+</div>
 
 {{site.description_detail}}
 
