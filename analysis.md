@@ -10,7 +10,7 @@ While going through the variables of the dataset, it was realized that the solut
 
 # Data Analysis:
 
-- An in-depth analysis was carried out to obtain the following insights from the data.
+An in-depth analysis was carried out to obtain the following insights from the data.
 
 
 #### Flight count from Top 5 Airlines at Top 5 Airports
