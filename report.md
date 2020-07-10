@@ -1,8 +1,11 @@
-## Analysis-of-Domestic-Airline-Delay-and-Cancellation_2009-2018
 
-### Motivation:
+# Motivation:
 ---
-The global aviation industry in one of the biggest industries by revenue in 2020. According to [Forbes](https://www.forbes.com/sites/jamesasquith/2020/04/06/if-aviation-was-a-country-it-would-be-the-worlds-20th-largest-by-gdp/#75a00acde5b5), if Aviation was A country, it would have been the World’s 20th Largest By GDP. It supports $2.7 trillion in world economic activity (3.6% of global gross domestic product). It supports $2.7 trillion in world economic activity (3.6% of global gross domestic product of the world)<sup>[[1]](https://aviationbenefits.org/economic-growth/adding-value-to-the-economy/) </sup>. 
+The global aviation industry in one of the biggest industries by revenue in 2020. 
+According to a [Forbes report](https://www.forbes.com/sites/jamesasquith/2020/04/06/if-aviation-was-a-country-it-would-be-the-worlds-20th-largest-by-gdp/#75a00acde5b5), 
+if Aviation was a country, it would have been the World’s 20th Largest By GDP. 
+It supports $2.7 trillion in world economic activity (3.6% of global gross domestic product). 
+It supports $2.7 trillion in world economic activity (3.6% of global gross domestic product of the world)<sup>[[1]](https://aviationbenefits.org/economic-growth/adding-value-to-the-economy/) </sup>. 
 As per [ICAO’s preliminary compilation of annual global statistics](https://www.icao.int/annual-report-2018/Pages/the-world-of-air-transport-in-2018.aspx), the total number of passengers carried on scheduled services rose to 4.3 billion in 2018, which is 6.4 per cent higher than the previous year, while the number of departures reached 37.8 million in 2018, a 3.5 per cent increase.
 
 As per AviationOutlook, the overall revenue rose from $754 billion in 2017 to $824 billion in 2018 (+9.4% growth).
