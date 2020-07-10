@@ -1,5 +1,3 @@
-<br>
-<br>
 While going through the variables of the dataset, it was realized that the solutions for the following questions could be obtained by analyzing the dataset:
 
 -  What are the major busiest airports with maximun flight arrivals
@@ -13,7 +11,7 @@ While going through the variables of the dataset, it was realized that the solut
 An in-depth analysis was carried out to obtain the following insights from the data.
 
 
-#### Flight count from Top 5 Airlines at Top 5 Airports
+## Flight count from Top 5 Airlines at Top 5 Airports
 <a href="images/1_five_busiest_airport_airline.png"><img src="images/1_five_busiest_airport_airline.png" style="min-width: 500px"></a>
 
 #### Top 5 Airports with maximum flight count
