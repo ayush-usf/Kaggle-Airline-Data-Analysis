@@ -9,8 +9,6 @@
 
 - #### The Global Airport Database dataset
 
-    kept in local storage unless uploaded to the cloud.
-
     The auxillary dataset was downloaded from <a target="_blank" href="https://www.partow.net/miscellaneous/airportdatabase/">The Global Airport Database</a> by Partow.
 
 <br>
