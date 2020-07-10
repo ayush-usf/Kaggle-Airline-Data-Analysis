@@ -2,7 +2,7 @@
 # Motivation:
 
 The global aviation industry in one of the biggest industries by revenue in 2020. 
-According to a [Forbes report](https://www.forbes.com/sites/jamesasquith/2020/04/06/if-aviation-was-a-country-it-would-be-the-worlds-20th-largest-by-gdp/#75a00acde5b5), 
+According to a <a href="https://www.forbes.com/sites/jamesasquith/2020/04/06/if-aviation-was-a-country-it-would-be-the-worlds-20th-largest-by-gdp/#75a00acde5b5" target="_blank">Forbes report</a>, 
 if Aviation was a country, it would have been the World’s 20th Largest By GDP. 
 It supports $2.7 trillion in world economic activity (3.6% of global gross domestic product). 
 It supports $2.7 trillion in world economic activity (3.6% of global gross domestic product of the world)<sup>[[1]](https://aviationbenefits.org/economic-growth/adding-value-to-the-economy/) </sup>. 
