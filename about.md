@@ -78,7 +78,7 @@ Fields Preview (Auxillary Dataset):
 #### Fields Graph:
 
 The following shows the relation between columns:
-<a href="requirements"><img src="images/kaggle-airline-data.png" style="min-width: 1000px;"></a>
+<a href="requirements" target="blank"><img src="images/kaggle-airline-data_origin_destination_colored.png" style="min-width: 100px;"></a>
 
 While going through the variables of the dataset, I realized that I could get some insightful answers for questions like what are the major reasons of cancellation/delay of flights, which region is mostly affected, is there any specific period when cancellations/delays happen the most, is the amount of cancellation/ delay distributed equally nationwide or does that change regions-wise, what reasons led to delay/cancellations region-wise, etc.
 
