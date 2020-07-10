@@ -12,7 +12,7 @@ navigation:
     url: about
   - title: Obtaining Data & Pre-processing
     url: obtaining
-  - title: Requirements
+  - title: Software Requirements
     url: requirements
   - title: Data Analysis
     url: analysis
