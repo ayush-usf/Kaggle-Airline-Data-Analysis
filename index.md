@@ -5,8 +5,8 @@ layout: default
     <div class="header3" style="display: inline;float: left;width: 80%;">
         <h1 id="kaggle-airline-delay--cancellation-analysis">{{site.title}}</h1>
     </div>
-    <div style="text-align: right;display: inline;float: right;right: -6px;" align="right"> 
-        <img src="images/next-page.png">
+    <div style="text-align: right;display: inline;cursor:pointer;float: right;right: -6px;" align="right"> 
+        <img src="images/next-page.png" href="/report">
     </div>
 </div>
 
