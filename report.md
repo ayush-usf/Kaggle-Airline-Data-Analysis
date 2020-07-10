@@ -11,7 +11,9 @@ As per
 which is 6.4 per cent higher than the previous year, while the number of departures reached 37.8 million 
 in 2018, a 3.5 per cent increase.
 
-As per AviationOutlook, the overall revenue rose from $754 billion in 2017 to $824 billion in 2018 (+9.4% growth).
+As per AviationOutlook, the overall worldwide revenue rose from $754 billion 
+in 2017 to $824 billion in 2018 (+9.4% growth), in which the North America provides a
+major contribution.
 
 The North America contributes 22.4 per cent of world traffic in 2018<sup>[[2]](https://aviationbenefits.org/economic-growth/adding-value-to-the-economy/) </sup>.
 Domestic aviation play an important role in the Global Aviation Revenue. 
