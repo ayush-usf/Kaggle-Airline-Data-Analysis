@@ -34,9 +34,9 @@ As the datasets were clean and difinite, the schema for both table was generated
 
 <div class="parent" style="display: inline-block;width: 100%;">
     <div class="header3" style="display: inline;float: left;width: 50%;">
-        <a href="about"><img src="images/prev-page.png" style="max-width: 50px"></a>
+        <a href="obtaining"><img src="images/prev-page.png" style="max-width: 50px"></a>
     </div>
     <div style="text-align: right;display: inline;cursor:pointer;float: right;right: -6px;" align="right"> 
-        <a href="ontaining"><img src="images/next-page.png" style="max-width: 50px"></a>
+        <a href="analysis"><img src="images/next-page.png" style="max-width: 50px"></a>
     </div>
 </div>

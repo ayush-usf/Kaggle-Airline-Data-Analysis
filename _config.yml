@@ -10,7 +10,7 @@ navigation:
     url: motivation
   - title: About the Data
     url: about
-  - title: Obtaining Data & Pre-processing
+  - title: Obtaining Data
     url: obtaining
   - title: Software Requirements
     url: requirements
