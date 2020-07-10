@@ -10,34 +10,34 @@ The main dataset i.e. <a target="_blank" href="https://www.kaggle.com/yuanyuwend
 
 ## Fields Descripton     
 **Name**|**Description**|**Type(Format)**|**Example**
- :-----:|:-----:|:-----:|:-----:
- FL\_DATE|Date of the flight|DATE (yy/mm/dd)|2009-05-02
- OP\_CARRIER|Airline Identifier|STRING|9E
- OP\_CARRIER\_FL\_NUM|Flight Number|INTEGER|2216
- ORIGIN|Starting Airport Code (IATA Code)|STRING|MLI
- DEST|Destination Airport Code (IATA Code)|STRING|MEM
- CRS\_DEP\_TIME|Planned Departure Time|INTEGER|600
- DEP\_TIME|Actual Departure Time|FLOAT|603.0
- DEP\_DELAY|Total Delay on Departure in minutes|FLOAT|3.0 
- TAXI\_OUT|The time duration elapsed between departure from the origin airport gate and wheels off|FLOAT|14.0 
- WHEELS\_OFF|The time point that the aircraft's wheels leave the ground|FLOAT|617.0
- WHEELS\_ON|The time point that the aircraft's wheels touch on the ground|FLOAT|757.0
- TAXI\_IN|The time duration elapsed between wheels-on and gate arrival at the destination airport|FLOAT|8.0 
- CRS\_ARR\_TIME|Planned arrival time|INTEGER|732
- ARR\_TIME|Actual Arrival Time|FLOAT|805.0
- ARR\_DELAY|Total Delay on Arrival in minutes|FLOAT|33.0 
- CANCELLED|Flight Cancelled (1 = cancelled)|FLOAT|0.0
- CANCELLATION\_CODE|Reason for Cancellation of flight: A - Airline/Carrier; B - Weather; C - National Air System; D - Security|STRING|D 
- DIVERTED|Aircraft landed on airport that out of schedule|FLOAT|0.0
- CRS\_ELAPSED\_TIME|Planned time amount needed for the flight trip|FLOAT|92.0 
- ACTUAL\_ELAPSED\_TIME|AIR\_TIME+TAXI\_IN+TAXI\_OUT|FLOAT|122.0
- AIR\_TIME|The time duration between wheels\_off and wheels\_on time|FLOAT|100.0 
- DISTANCE|Distance between two airports|FLOAT|442.0
- CARRIER\_DELAY|Delay caused by the airline in minutes|FLOAT|0.0 
- WEATHER\_DELAY|Delay caused by weather|FLOAT|0.0
- NAS\_DELAY|Delay caused by air system|FLOAT|33.0
- SECURITY\_DELAY|Delay caused by security|FLOAT|0.0
- LATE\_AIRCRAFT\_DELAY|Delay caused by aircraft reaching late|STRING|0.0
+:-----:|:-----:|:-----:|:-----:
+FL\_DATE|Date of the flight|DATE (yy/mm/dd)|2009-05-02
+OP\_CARRIER|Airline Identifier|STRING|9E
+OP\_CARRIER\_FL\_NUM|Flight Number|INTEGER|2216
+ORIGIN|Starting Airport Code (IATA Code)|STRING|MLI
+DEST|Destination Airport Code (IATA Code)|STRING|MEM
+CRS\_DEP\_TIME|Planned Departure Time|INTEGER|600
+DEP\_TIME|Actual Departure Time|FLOAT|603.0
+DEP\_DELAY|Total Delay on Departure in minutes|FLOAT|3.0 
+TAXI\_OUT|The time duration elapsed between departure from the origin airport gate and wheels off|FLOAT|14.0 
+WHEELS\_OFF|The time point that the aircraft's wheels leave the ground|FLOAT|617.0
+WHEELS\_ON|The time point that the aircraft's wheels touch on the ground|FLOAT|757.0
+TAXI\_IN|The time duration elapsed between wheels-on and gate arrival at the destination airport|FLOAT|8.0 
+CRS\_ARR\_TIME|Planned arrival time|INTEGER|732
+ARR\_TIME|Actual Arrival Time|FLOAT|805.0
+ARR\_DELAY|Total Delay on Arrival in minutes|FLOAT|33.0 
+CANCELLED|Flight Cancelled (1 = cancelled)|FLOAT|0.0
+CANCELLATION\_CODE|Reason for Cancellation of flight: A - Airline/Carrier; B - Weather; C - National Air System; D - Security|STRING|D 
+DIVERTED|Aircraft landed on airport that out of schedule|FLOAT|0.0
+CRS\_ELAPSED\_TIME|Planned time amount needed for the flight trip|FLOAT|92.0 
+ACTUAL\_ELAPSED\_TIME|AIR\_TIME+TAXI\_IN+TAXI\_OUT|FLOAT|122.0
+AIR\_TIME|The time duration between wheels\_off and wheels\_on time|FLOAT|100.0 
+DISTANCE|Distance between two airports|FLOAT|442.0
+CARRIER\_DELAY|Delay caused by the airline in minutes|FLOAT|0.0 
+WEATHER\_DELAY|Delay caused by weather|FLOAT|0.0
+NAS\_DELAY|Delay caused by air system|FLOAT|33.0
+SECURITY\_DELAY|Delay caused by security|FLOAT|0.0
+LATE\_AIRCRAFT\_DELAY|Delay caused by aircraft reaching late|STRING|0.0
 
 ---
 -   The Global Airport Database dataset):
