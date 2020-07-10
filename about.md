@@ -42,7 +42,8 @@ NAS\_DELAY|Delay caused by air system|FLOAT|33.0
 SECURITY\_DELAY|Delay caused by security|FLOAT|0.0
 LATE\_AIRCRAFT\_DELAY|Delay caused by aircraft reaching late|STRING|0.0
 
-The following shows the relation between columns:
+# The following shows the relation between columns:
+
 <a href="images/kaggle-airline-data_origin_destination_colored.png" target="_blank"><img src="images/kaggle-airline-data_origin_destination_colored.png" style="min-width: 100px;"></a>
 
 
