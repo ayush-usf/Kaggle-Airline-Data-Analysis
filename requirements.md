@@ -2,7 +2,7 @@
 - **BigQuery** - Data Warehousing Solution
 - **Python** - For combing the delay and cancellation CSVs
 - **gsutil** - For uploading combined main dataset to GCS
-
+- **Google Data Studio** - To visualize the insights obtained from data analysis
 
 ## Choosing BigQuery
 

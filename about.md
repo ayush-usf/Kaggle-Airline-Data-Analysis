@@ -94,10 +94,7 @@ Longitude Decimal Degrees|Floating point [-180,180]|-84.427
     <summary>Auxillary Dataset</summary>
         <a href="images/aux_dataset_1.png" target="_blank"><img src="images/aux_dataset_1.png" style="min-width: 1200px;"></a>
 </details>
-
 <br>
-
-
 
 <div class="parent" style="display: inline-block;width: 100%;">
     <div class="header3" style="display: inline;float: left;width: 50%;">
