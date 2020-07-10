@@ -32,6 +32,11 @@ that provided data points for the Delays and Cancellations for the time period o
 2009 through 2018. As this dataset is very recent, one could get a real picture of 
 a very recent period.
 
-<div style="text-align: right;display: inline;cursor:pointer;float: right;right: -6px;" align="right"> 
-    <a href="report"><img src="images/next-page.png" style="max-width: 50px"></a>
+<div class="parent" style="display: inline-block;width: 100%;">
+    <div class="header3" style="display: inline;float: left;width: 50%;">
+        <a href="about"><img src="images/prev-page.png" style="max-width: 50px"></a>
+    </div>
+    <div style="text-align: right;display: inline;cursor:pointer;float: right;right: -6px;" align="right"> 
+        <a href="about"><img src="images/next-page.png" style="max-width: 50px"></a>
+    </div>
 </div>
