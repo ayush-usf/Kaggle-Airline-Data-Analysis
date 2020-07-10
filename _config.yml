@@ -7,14 +7,16 @@ navigation:
   - title: Home
     url: /
   - title: Motivation
-    url: report
+    url: motivation
   - title: About the Data
-    url: report#about-the-data
+    url: about
+  - title: Requirements
+    url: requirements
   - title: Data Analysis
-    url: report#data-analysis
+    url: analysis
   - title: Glossary
-    url: report#glossary
+    url: glossary
   - title: Summary
-    url: report#summary
+    url: summary
   - title: References
-    url: report#references
+    url: references
