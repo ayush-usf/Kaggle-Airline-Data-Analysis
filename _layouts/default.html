@@ -6,7 +6,7 @@
     <link rel='shortcut icon' type='image/x-icon' href='assets/img/airplane_icon.ico' />
     <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
 
-    <link rel="stylesheet" href="{{ '/assets/css/styles.css' }}">
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | append: site.github.build_revision | relative_url }}">
     <meta name="viewport" content="width=device-width">
   </head>
   <body>
