@@ -1,6 +1,7 @@
 theme: jekyll-theme-minimal
 title: Kaggle Airline Cancellation Analysis
 description: description Kaggle Airline Cancellation Analysis description
+var: Ayush
 #show_downloads: True
 
 header_pages:
@@ -8,7 +9,7 @@ header_pages:
   - README.md
 
 navigation:
-  - title: Home
+  - title: Summary
     url: text
   - title: References
     url: text#references
