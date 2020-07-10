@@ -52,7 +52,7 @@ S No.| Airport Code | Airport Name | Cancellation (in %) |
 
 ## Top Cancellation Reasons in Top 5 Busiest Airports
 
-S No.| Reason | Cancellation (in %) |
+| S No.| Reason | Cancellation (in %) |
 | - | - | - | -
 | 1. | **Weather** | 53.7|
 | 2. | **Airline/Carrier Delays** | 25.4|
@@ -68,7 +68,7 @@ S No.| Reason | Cancellation (in %) |
 
 ## Top Cancellation Reasons at the Most Busiest Airport (Atlanta)
 
-S No.| Reason | Cancellation (in %) |
+|S No.| Reason | Cancellation (in %) |
 | - | - | - | -
 | 1. | **Weather** | 74.6|
 | 2. | **Airline/Carrier Delays** | 17.4|
