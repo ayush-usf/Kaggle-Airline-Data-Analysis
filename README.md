@@ -191,8 +191,7 @@ After analyzing the data, a lot of insights have been generated. Most of the del
 - Weather
 - Airline/Carrier Issues
 - National Air System
-
-## Different ways to embed pdfs in GitHub pages
+<!-- ## Different ways to embed pdfs in GitHub pages
 # test 1
 <embed src="https://sumanbogati.github.io/sample.pdf" width="700px" height="700px" type="application/pdf" />
 
@@ -211,3 +210,4 @@ After analyzing the data, a lot of insights have been generated. Most of the del
 
 # test 4
 ![](pdfs/presentation.pdf)
+ -->
