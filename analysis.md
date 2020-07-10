@@ -116,31 +116,16 @@ S No.| Reason | Cancellation (in %) |
 <a href="images/6_yearwise_cancalltions.png"><img src="images/6_yearwise_cancalltions.png" style="min-width: 600px"></a>
 
 
-## Overall Delay Time Frequency
+## Overall Delay Time Frequency with Top 5 Airports (2009-2018)
 
-|S No.| Year | Delays (in thousand) |
-| - | - | - | -
-| 1. |2009 | 87 |
-| 2. | 2010 | 113|
-| 3. |2011| 116|
-| 4. |2012|93|
-| 5. |2013 | 96|
-| 6. |2014 | 126|
-| 7. |2015 | 89|
-| 8. |2016 | 65|
-| 9. |2017 | 82|
-| 10. |2018 | 116|
-<a href="images/7_yearwise_delays.png"><img src="images/7_yearwise_delays.png" style="min-width: 500px"></a>
+<a href="images/8_Overall_delays_cnt.png"><img src="images/8_Overall_delays_cnt.png" style="min-width: 500px"></a>
 
-<a href="images/Overall_delays_cnt.png"><img src="images/Overall_delays_cnt.png" style="min-width: 600px"></a>
+<br>
 
+> We realize that 2018 is the year of maximum delays and cancellations
 
-- Delay Count (2009-2018)
-![](images/Overall_delays_cnt.png)
-
----
-
-- Delay Count (2018) (Year of max delays and cancellations)
+<br>
+<a href="images/8_Overall_delays_cnt.png"><img src="images/8_Overall_delays_cnt.png" style="min-width: 500px"></a>
 
 ![](images/Overall_delay_cnt_2018.png)
 
