@@ -1,6 +1,6 @@
 # Data Analysis:
 
-While going through the variables of the dataset, it was realized that the results for the following questions could be obtained by analyzing the dataset:
+While going through the variables of the dataset, it was realized that the solutions for the following questions could be obtained by analyzing the dataset:
 
 -  What are the major airports with maximun flight arrivals
 -  What are the major reasons for delay and cancellation at these major airport
