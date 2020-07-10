@@ -8,9 +8,11 @@ While going through the variables of the dataset, it was realized that the solut
 -  Is there a specific period (specific months) when cancellations/delays happen the most
 -  Is the amount of delays and cancellations distributed equally nationwide. If not, which regions are majorly affected.
 
+---
 
 An in-depth analysis was carried out to obtain the following insights from the data.
 
+---
 
 ## Flight count from Top 5 Airlines at Top 5 Airports
 <a href="images/1_five_busiest_airport_airline.png"><img src="images/1_five_busiest_airport_airline.png" style="min-width: 500px"></a>
