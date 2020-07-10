@@ -1,5 +1,5 @@
-# Data Analysis:
-
+<br>
+<br>
 While going through the variables of the dataset, it was realized that the solutions for the following questions could be obtained by analyzing the dataset:
 
 -  What are the major busiest airports with maximun flight arrivals
@@ -8,7 +8,7 @@ While going through the variables of the dataset, it was realized that the solut
 -  Is there a specific period (specific months) when cancellations/delays happen the most
 -  Is the amount of delays and cancellations distributed equally nationwide. If not, which regions are majorly affected.
 
-#### Analysis
+# Data Analysis:
 
 - An in-depth analysis was carried out to obtain the following insights from the data.
 
