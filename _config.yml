@@ -7,7 +7,7 @@ navigation:
   - title: Home
     url: /
   - title: Motivation
-    url: text#motivation
+    url: text
   - title: About the Data
     url: text#about-the-data
   - title: Data Analysis
