@@ -78,7 +78,7 @@ Longitude Decimal Degrees|Floating point [-180,180]|-84.427
 <br>
 <br>
 
-#### Fields Data Preview
+### Fields Data Preview
 
 <details>
     <summary>Main Dataset</summary>
@@ -96,13 +96,13 @@ Longitude Decimal Degrees|Floating point [-180,180]|-84.427
 
 <br>
 
-While going through the variables of the dataset, I realized that I could get some insightful answers for questions like what are the major reasons of cancellation/delay of flights, which region is mostly affected, is there any specific period when cancellations/delays happen the most, is the amount of cancellation/ delay distributed equally nationwide or does that change regions-wise, what reasons led to delay/cancellations region-wise, etc.
+### Complete Fields Graph
+<details>
+    <summary>Delay & Cancellation Dataset</summary>
+        <a href="images/kaggle-airline-data.png" target="_blank"><img src="images/kaggle-airline-data.png" style="min-width: 1200px;"></a>
+</details>
 
-If answers to such questions could be answered, this might help governments, airport authorities, airline organizations, or third party businesses who provide services on platforms built by airport and airline industries like advertising agencies and infotainment system providers to make smart decisions while providing any service to customers.
-The government could choose locations with the least delaying/ canceling factors to build the busiest airport in their country. With more footfall on such airports, airport authorities could make more revenue allowing more and more airlines willing to land their flights at such a big airport. With such humongous/ mammoth footfall advertising agencies could throw more advertisements to customers.
-
-
-## Future Work
+<br>
 
 <div class="parent" style="display: inline-block;width: 100%;">
     <div class="header3" style="display: inline;float: left;width: 50%;">
