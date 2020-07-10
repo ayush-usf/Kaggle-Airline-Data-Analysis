@@ -105,36 +105,36 @@ For the main dataset, CSVs were appended to the same table to form the final tab
 
 A lot of extensive analysis has been carried out to gain insights from the data ingested in BigQuery while visualization has been carried in Google Data Studio. 
 
-Analysis carried out with [Google Data Studio](https://datastudio.google.com)
+
 
 - Overall flight count from Top 5 Airlines at Top 5 Airports
 
-<iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/a7316f10-091c-41ac-864d-e7538d91aaec/page/2svOB" frameborder="0" style="border:0" allowfullscreen></iframe>
+
 
 ---
 
 - Cancellations Pie Chart
 
-<iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/2f148032-7e76-407d-92c0-3c04172bdd31/page/gvvOB" frameborder="0" style="border:0" allowfullscreen></iframe>
+
 ---
 
 - Overall Cancellations in Top 5 Airports 
 
-<iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/51e8370d-1da6-4c79-bfe9-9163d26a6cd3/page/3xvOB" frameborder="0" style="border:0" allowfullscreen></iframe>
+
 ---
 
 - Overall Delay in Top 5 Airports
 
-<iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/399ff77f-2440-478a-a336-4d627c3f5585/page/izvOB" frameborder="0" style="border:0" allowfullscreen></iframe> 
+ 
 ---
 
 - Overall Cancellation/Delays Yearwise
 
-<iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/d4be53fe-6928-4e6c-89d0-e23aac599be8/page/45vOB" frameborder="0" style="border:0" allowfullscreen></iframe>
+
 ---
 - Overall Yearwise Cancellations
 
-<iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/7b267dde-41fc-4e1c-b292-9b5da5ea7b0d/page/U7vOB" frameborder="0" style="border:0" allowfullscreen></iframe>
+
 ---
 
 - Overall Cancellation Reasons
@@ -191,23 +191,3 @@ After analyzing the data, a lot of insights have been generated. Most of the del
 - Weather
 - Airline/Carrier Issues
 - National Air System
-
-## Different ways to embed pdfs in GitHub pages
-# test 1
-<embed src="https://sumanbogati.github.io/sample.pdf" width="700px" height="700px" type="application/pdf" />
-
-# test 2
-<embed src="https://github.com/cs-rocks/Analysis-of-Domestic-Airline-Delay-and-Cancellation_2009-2018/raw/master/pdfs/Sys-Proj%207%20Flow.pdf" width="700px" height="700px" type="application/pdf" />
-
-# test 3
-<object data="https://raw.githubusercontent.com/degoes-consulting/lambdaconf-2015/master/speakers/jdegoes/intro-purescript/presentation.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://raw.githubusercontent.com/degoes-consulting/lambdaconf-2015/master/speakers/jdegoes/intro-purescript/presentation.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://yoursite.com/the.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
-
-
-![](pdfs/Sys-Proj 7 Flow.pdf)
-
-# test 4
-![](pdfs/presentation.pdf)

@@ -2,16 +2,19 @@ theme: jekyll-theme-minimal
 title: Kaggle Airline Cancellation Analysis
 description: description Kaggle Airline Cancellation Analysis description
 var: Ayush
-#show_downloads: True
-
-header_pages:
-  - index.md
-  - README.md
 
 navigation:
+  - title: Home
+    url: README
+  - title: Motivation
+    url: README#motivation
+  - title: About the Data
+    url: README#about-the-data
+  - title: Data Analysis
+    url: README#data-analysis
+  - title: Glossary
+    url: README#glossary
   - title: Summary
-    url: text
+    url: README#summary
   - title: References
-    url: text#references
-  - title: Setup
-    url: setup
+    url: README#references
