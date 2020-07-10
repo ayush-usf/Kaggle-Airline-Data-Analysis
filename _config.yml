@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
 title: Kaggle Airline Cancellation Analysis
 description: description Kaggle Airline Cancellation Analysis description
-show_downloads: True
+#show_downloads: True
 
 header_pages:
   - index.md
