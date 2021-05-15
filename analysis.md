@@ -301,7 +301,8 @@ ORDER BY
 <br>
 <br>
 
-- #### Overall Delays in Top 5 Airports with top 5 airlines
+#### Overall Delays in Top 5 Airports with top 5 airlines
+
 
 <a href="images/4_Delay_bifurcation.png"><img src="images/4_Delay_bifurcation.png" style="min-width: 600px"></a>
  
@@ -313,12 +314,54 @@ ORDER BY
 ---
 ## Overall Cancellation/Delays Yearwise
 
+> ###### Query
+```
+WITH
+  cancellation_data AS (
+  SELECT
+    EXTRACT(year
+    FROM
+      FL_DATE) AS year,
+    COUNT(*) AS cancellation_cnt
+  FROM
+    `airline-delay-canc.airlines_data.delay_canc_data`
+  WHERE
+    CANCELLED = 1
+  GROUP BY
+    year
+  ORDER BY
+    year ),
+  delayed_data AS (
+  SELECT
+    EXTRACT(year
+    FROM
+      FL_DATE) AS year,
+    COUNT(*) AS delay_cnt
+  FROM
+    `airline-delay-canc.airlines_data.delay_canc_data`
+  WHERE
+    (CARRIER_DELAY IS NOT NULL
+      AND CARRIER_DELAY > 0
+      OR ARR_DELAY IS NOT NULL
+      AND ARR_DELAY > 0)
+  GROUP BY
+    year
+  ORDER BY
+    year )
+SELECT
+  c.year,
+  c.cancellation_cnt,
+  d.delay_cnt
+FROM
+  cancellation_data c,
+  delayed_data d
+WHERE
+  c.year = d.year
+ORDER BY
+  c.year
+```
+
 <a href="images/5_yearwise_delays_cancalltions.png"><img src="images/5_yearwise_delays_cancalltions.png" style="min-width: 800px"></a>
-
-###### Query
-```
-
-```
 
 <br>
 <br>
