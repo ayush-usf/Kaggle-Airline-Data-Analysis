@@ -7,11 +7,11 @@
 
 While going through the variables of the dataset, it was realized that the solutions for the following questions could be obtained by analyzing the dataset:
 
--  What are the major busiest airports with maximun flight arrivals
--  What are the major reasons for delays and cancellations at the busiest airports
--  Is the major reason for flight delays same as the major reason for cancellations
--  Is there a specific period (specific months) when cancellations/delays happen the most
--  Is the amount of delays and cancellations distributed equally nationwide. If not, which regions are majorly affected.
+-  What are the major busiest airports with maximum flight arrival count?
+-  What are the major reasons for delays and cancellations at the busiest airports?
+-  Is the major reason for flight delays same as the major reason for cancellations?
+-  Is there a specific period (specific months) when delays and cancellations happened the most?
+-  Is the amount of delays and cancellations distributed equally nationwide.? If not, which regions are majorly affected.?
 
 ---
 
