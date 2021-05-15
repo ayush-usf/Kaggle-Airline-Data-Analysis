@@ -183,6 +183,8 @@ WHERE
   AND af.Carrier = cf.Carrier
 ```
 
+> ###### Results
+
 S No.| Airport Code | Airport Name | Cancellation (in %) |
 - | - | - | - | -
 | 1. | **ORD** | (O'Hare International Airport) | 39|
