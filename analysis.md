@@ -672,11 +672,15 @@ WITH top_5_airports as (
 
 ---
 
-## Delay Percentage for top 5 airports (2018) 
+#### Delay Percentage for top 5 airports (2018) 
 
 ![](images/Overall_delays_percent_2018.png)
 
-## Most unreliable month of 2018 (Cancellations in ascending order)
+---
+## Let us get into some more details in 2018
+---
+
+### Most unreliable month of 2018 (Cancellations in ascending order)
 
 > ###### Query
 ```
@@ -708,11 +712,6 @@ ORDER BY
 
 ![](images/unreliable_month_2018.png)
 
-## Future Work
-
-- #### Weather Data
-    The weather data for each of the major airports could be obtained and combined with the existing datasets. 
-    With the new dataset, one could determine the exact weather conditions that resulted in delay/cancalltions.
  
 <div class="parent" style="display: inline-block;width: 100%;">
     <div class="header3" style="display: inline;float: left;width: 50%;">
