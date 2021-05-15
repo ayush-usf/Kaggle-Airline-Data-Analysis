@@ -105,6 +105,9 @@ WHERE
 
 <a href="images/1_five_busiest_airport_airline.png"><img src="images/1_five_busiest_airport_airline.png" style="min-width: 500px"></a>
 
+<br>
+
+- From the above, it is realized that on **Delta Airlines** has the highest flight frequence on the **Atlanta** airport.
 
 <br>
 
