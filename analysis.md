@@ -287,7 +287,7 @@ ORDER BY
 <br>
 
 ### Top Cancellation Reasons at the Most Busiest Airport in practice (Atlanta)
-- Atlanta is one of the largest inter-connect points for flights in USA
+- Atlanta is one of the largest inter-connect point (airport) for domestic and international flights in USA.
 
 |S No.| Reason | Cancellation (in %) |
 | - | - | - | -
@@ -302,7 +302,11 @@ ORDER BY
 <br>
 <br>
 
-## Overall Delays at Top 5 Airports with top 5 airlines
+---
+## Next, we look at the delays
+---
+
+### Overall Delays at Top 5 Airports with top 5 airlines
 
 > ###### Query
 ```
