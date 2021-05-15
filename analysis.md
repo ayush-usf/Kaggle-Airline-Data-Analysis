@@ -86,7 +86,7 @@ WHERE
 ```
 
 ###### Results
-#### Top 5 Airports with maximum flight count
+#### Top 5 Airports with maximum flight count:
 
 1. **ORD** (O'Hare International Airport)
 2. **ATL** (Hartsfield-Jackson Atlanta International Airport)
@@ -95,7 +95,7 @@ WHERE
 5. **DEN** (Denver International Airport)
 
 
-#### Top 5 Airlines with maximum flight count
+#### Top 5 Airlines with maximum flight count:
 1. **DL** (Delta Air Lines)
 2. **AA** (American Airlines)
 3. **UA** (United Airlines)
@@ -183,7 +183,7 @@ WHERE
   AND af.Carrier = cf.Carrier
 ```
 
-> ###### Results
+###### Results
 
 S No.| Airport Code | Airport Name | Cancellation (in %) |
 - | - | - | - | -
@@ -198,12 +198,13 @@ S No.| Airport Code | Airport Name | Cancellation (in %) |
 
 <br><br>
 
-## Cancellation Bifircation
+#### Airport-wise Cancellation Bifircation
 <br>
 <a href="images/3_Cancellation_bifurcation.png"><img src="images/3_Cancellation_bifurcation.png" style="min-width: 600px"></a>
 
 <br>
 <br>
+---
 
 ## Top Cancellation Reasons in Top 5 Busiest Airports
 
