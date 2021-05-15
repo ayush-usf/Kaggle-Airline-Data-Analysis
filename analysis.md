@@ -1,6 +1,6 @@
 <style>
 	pre.highlight{
-		font-size: 13px;
+		font-size: 10px;
 	}
 </style>
 # Data Analysis:
@@ -30,8 +30,8 @@ An in-depth analysis was carried out to obtain the following insights from the d
 4. **LAX** (Los Angeles International Airport)
 5. **DEN** (Denver International Airport)
 
+###### Query
 ```
--- SQL Query : Top 5 busiest airport and top 5 busiest airlines
 WITH top_5_airports AS (
 	SELECT ORIGIN, COUNT(ORIGIN) AS count
 	FROM
@@ -101,6 +101,10 @@ WHERE
 4. **OO** (SkyWest Airlines)
 5. **MQ** (American Eagle Airlines)
 
+###### Query
+```
+
+```
 <br>
 
 ## Top 5 Airports with Maximum Cancellations (decreasing order)
@@ -114,9 +118,14 @@ S No.| Airport Code | Airport Name | Cancellation (in %) |
 
 
 <a href="images/2_Cancellations_Pie_Chart.png"><img src="images/2_Cancellations_Pie_Chart.png" style="min-width: 500px"></a>
-<br>
+###### Query
+```
+
+```
 <br><br>
+
 ## Cancellation Bifircation
+<br>
 <a href="images/3_Cancellation_bifurcation.png"><img src="images/3_Cancellation_bifurcation.png" style="min-width: 600px"></a>
 
 <br>
@@ -134,6 +143,10 @@ S No.| Airport Code | Airport Name | Cancellation (in %) |
 <br>
 <a href="images/7_Cancellation_Reason_bifurcation.png"><img src="images/7_Cancellation_Reason_bifurcation.png" style="min-width: 500px"></a>
 
+###### Query
+```
+
+```
 <br>
 <br>
 <br>
@@ -147,6 +160,11 @@ S No.| Airport Code | Airport Name | Cancellation (in %) |
 | 3. | **National Air System** | 8|
 <br>
 <a href="images/8_Cancellation_Reason_top_airport_ATL.png"><img src="images/8_Cancellation_Reason_top_airport_ATL.png" style="min-width: 500px"></a>
+
+###### Query
+```
+
+```
 
 <br>
 <br>
@@ -163,6 +181,11 @@ S No.| Airport Code | Airport Name | Cancellation (in %) |
 ## Overall Cancellation/Delays Yearwise
 
 <a href="images/5_yearwise_delays_cancalltions.png"><img src="images/5_yearwise_delays_cancalltions.png" style="min-width: 800px"></a>
+
+###### Query
+```
+
+```
 
 <br>
 <br>
@@ -185,11 +208,19 @@ S No.| Airport Code | Airport Name | Cancellation (in %) |
 <br>
 <a href="images/6_yearwise_cancalltions.png"><img src="images/6_yearwise_cancalltions.png" style="min-width: 600px"></a>
 
+###### Query
+```
+
+```
 
 ## Overall Delay Time Frequency with Top 5 Airports (2009-2018)
 
 <a href="images/8_Overall_delays_cnt.png"><img src="images/8_Overall_delays_cnt.png" style="min-width: 500px"></a>
 
+###### Query
+```
+
+```
 <br>
 
 > We realize that 2018 is the year of maximum delays and cancellations
