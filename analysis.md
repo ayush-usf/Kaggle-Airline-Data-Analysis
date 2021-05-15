@@ -581,6 +581,7 @@ WITH top_5_airports as (
 ---
 
 ## Delay Percentage for top 5 airports (2009-2018)
+
 > ###### Query
 ```
 
