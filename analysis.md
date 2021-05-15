@@ -572,7 +572,7 @@ WITH top_5_airports as (
 <br>
 <br>
 
-## Overall Delay Frequency for 2018 (Year with max delays and cancellations)
+#### Overall Delay Frequency for 2018 (Year with max delays and cancellations)
 
 <br>
 
