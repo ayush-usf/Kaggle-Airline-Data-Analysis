@@ -81,17 +81,29 @@ Longitude Decimal Degrees|Floating point [-180,180]|-84.427
 
 ### Fields Data Preview
 
+<br>
+
 <details>
     <summary>Main Dataset</summary>
+    <br>
     Set 1: 15/27 columns
+    <br>
+    <br>
     <a href="images/main_dataset_1.png" target="_blank"><img src="images/main_dataset_1.png" style="min-width: 1200px;"></a>
+    <br>
+    <br>
     Set 2: Remaining 12/27 columns
+    <br>
+    <br>
     <a href="images/main_dataset_2.png" target="_blank"><img src="images/main_dataset_2.png" style="min-width: 1200px;"></a>
 
 </details>
 
+<br>
+
 <details>
     <summary>Auxillary Dataset</summary>
+        <br>
         <a href="images/aux_dataset_1.png" target="_blank"><img src="images/aux_dataset_1.png" style="min-width: 1200px;"></a>
 </details>
 <br>
