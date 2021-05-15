@@ -663,6 +663,7 @@ WITH top_5_airports as (
       slot_struct.cnt_24 as prcnt_1d_more
   from udf_result
 ```
+
 #### Delay Percentage for top 5 airports (2009-2018)
 ![](images/Overall_delays_percent.png)
 
@@ -677,6 +678,7 @@ WITH top_5_airports as (
 > ###### Query
 ```
 -- Most unreliable month of 2018 (Year with max delays and cancellations)
+
 WITH
   cancelled_count_cte AS (
   SELECT
