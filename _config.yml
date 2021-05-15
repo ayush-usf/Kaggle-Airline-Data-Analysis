@@ -14,7 +14,7 @@ navigation:
     url: obtaining
   - title: Software Requirements
     url: requirements
-  - title: Data Analysis
+  - title: Analysis with SQL Queries
     url: analysis
   - title: Summary
     url: summary
