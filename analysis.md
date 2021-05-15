@@ -580,11 +580,12 @@ WITH top_5_airports as (
 ## Delay Percentage for top 5 airports (2009-2018)
 
 > ###### Query
-```
 
+```
 CREATE TEMP FUNCTION delay_bifurcation(slot_cnt ARRAY<STRUCT<slot int64,count int64>>)
    RETURNS STRUCT<cnt_1_30 float64, cnt_30_2 float64, cnt_2_5 float64, cnt_5_24 float64, cnt_24 float64>
   LANGUAGE js AS """
+
   let response = {"cnt_1_30": 0.0, "cnt_30_2": 0.0, "cnt_2_5": 0.0, "cnt_5_24": 0.0, "cnt_24": 0.0}
   let total_delayed_flights = 0;
   for(let i = 0 ; i < slot_cnt.length; i++){
@@ -640,7 +641,7 @@ WITH top_5_airports as (
   from `airline-delay-canc.airlines_data.delay_canc_data`
   where ARR_DELAY is not null and ARR_DELAY > 0
 
---   and EXTRACT(year FROM FL_DATE) = 2018
+--   and EXTRACT(year FROM FL_DATE) = 2018 -- used for filtering
   ),
 
   airport_timeslots as(
@@ -662,6 +663,7 @@ WITH top_5_airports as (
       slot_struct.cnt_5_24 as prcnt_5hr_1d,
       slot_struct.cnt_24 as prcnt_1d_more
   from udf_result
+
 ```
 
 #### Delay Percentage for top 5 airports (2009-2018)
@@ -673,12 +675,10 @@ WITH top_5_airports as (
 
 ![](images/Overall_delays_percent_2018.png)
 
-## Most unreliable month in 2018 (Cancellations in ascending order)
+## Most unreliable month of 2018 (Cancellations in ascending order)
 
 > ###### Query
 ```
--- Most unreliable month of 2018 (Year with max delays and cancellations)
-
 WITH
   cancelled_count_cte AS (
   SELECT
