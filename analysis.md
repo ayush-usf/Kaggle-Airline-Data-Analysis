@@ -566,27 +566,30 @@ WITH top_5_airports as (
 ```
 
 <br>
-#### Overall Delay Time Frequency with Top 5 Airports (2009-2018)
+#### Overall Delay Time Frequency with Top 5 Airports (UDF Function)
 
 <a href="images/8_Overall_delays_cnt.png"><img src="images/8_Overall_delays_cnt.png" style="min-width: 500px"></a>
 
 
-<a href="images/8_Overall_delays_cnt.png"><img src="images/8_Overall_delays_cnt.png" style="min-width: 500px"></a>
+## Overall Delay Frequency for 2018 (Year with max delays and cancellations)
 
 ![](images/Overall_delay_cnt_2018.png)
 
 ---
 
-- Delay Percentage for top 5 airports (2009-2018)
+## Delay Percentage for top 5 airports (2009-2018)
+
+- 
 ![](images/Overall_delays_percent.png)
 
 ---
 
-- Delay Percentage for top 5 airports (2018) (Year of max delays and cancellations)
+## Delay Percentage for top 5 airports (2018) 
 
 ![](images/Overall_delays_percent_2018.png)
 
-- Most unreliable month in 2018 (Cancellations in ascending order)
+## Most unreliable month in 2018 (Cancellations in ascending order)
+
 ![](images/unreliable_month_2018.png)
 
 ## Future Work
@@ -594,12 +597,7 @@ WITH top_5_airports as (
 - #### Weather Data
     The weather data for each of the major airports could be obtained and combined with the existing datasets. 
     With the new dataset, one could determine the exact weather conditions that resulted in delay/cancalltions.
-    
-    Also, what major weather conditions like rain, fog, etc result in more delays and cancellations than other ones.
-
-
- ingested in BigQuery while visualization has been carried in . 
-
+ 
 <div class="parent" style="display: inline-block;width: 100%;">
     <div class="header3" style="display: inline;float: left;width: 50%;">
         <a href="requirements"><img src="images/prev-page.png" style="max-width: 50px"></a>
