@@ -455,9 +455,12 @@ ORDER BY
 <a href="images/5_yearwise_delays_cancalltions.png"><img src="images/5_yearwise_delays_cancalltions.png" style="min-width: 800px"></a>
 
 <br>
+
+> We realize that 2018 is the year of maximum delays and cancellations
+
 <br>
 
-- ### Let us extract Overall Yearwise Cancellations
+## Overall Yearwise Cancellations Count
 
 |S No.| Year | Cancellations (in thousand) |
 | - | - | - | -
@@ -559,11 +562,7 @@ WITH top_5_airports as (
 
 <a href="images/8_Overall_delays_cnt.png"><img src="images/8_Overall_delays_cnt.png" style="min-width: 500px"></a>
 
-<br>
 
-> We realize that 2018 is the year of maximum delays and cancellations
-
-<br>
 <a href="images/8_Overall_delays_cnt.png"><img src="images/8_Overall_delays_cnt.png" style="min-width: 500px"></a>
 
 ![](images/Overall_delay_cnt_2018.png)
