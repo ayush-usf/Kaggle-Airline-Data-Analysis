@@ -396,7 +396,7 @@ WHERE
 <br>
 
 ---
-> ### Next we find out the time period with maximum delays and cancellations
+> ### Next we find out the time period with maximum delays and cancellations together.
 
 ---
 
