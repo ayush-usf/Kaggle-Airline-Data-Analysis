@@ -209,20 +209,78 @@ WHERE
 
 ## Top Cancellation Reasons in Top 5 Busiest Airports
 
+> ###### Query - JS UDF Function
+```
+CREATE TEMP FUNCTION
+  cancellation_reason(code string)
+  RETURNS string
+  LANGUAGE js AS """
+    switch(code) {
+        case "A":
+          return "Airline/Carrier";
+        break;
+        case "B":
+          return "Weather";
+        break;
+        case "C":
+          return "National Air System";
+        break;
+        case "D":
+          return "Security";
+        break;
+        default:
+          return "Others";
+        break;
+   }
+""";
+WITH
+  top_5_airports AS (
+  SELECT
+    ORIGIN,
+    COUNT(ORIGIN) AS count
+  FROM
+    `airline-delay-canc.airlines_data.delay_canc_data`
+  GROUP BY
+    1
+  HAVING
+    count > 100000
+  ORDER BY
+    2 DESC
+  LIMIT
+    5 )
+SELECT
+  top5.ORIGIN,
+  cancellation_reason(main.CANCELLATION_CODE) AS reason,
+  COUNT(main.CANCELLATION_CODE) AS count
+FROM
+  `airline-delay-canc.airlines_data.delay_canc_data` main,
+  top_5_airports top5
+WHERE
+  CANCELLED = 1
+  AND EXTRACT(year
+  FROM
+    FL_DATE) = 2018
+  AND top5.ORIGIN = main.ORIGIN
+GROUP BY
+  1,
+  2
+ORDER BY
+  1,
+  2
+```
+
+###### Result
 | S No.| Reason | Cancellation (in %) |
 | - | - | - |
 | 1. | **Weather** | 53.7|
 | 2. | **Airline/Carrier Delays** | 25.4|
 | 3. | **National Air System** | 20.9|
 | 4. | **Airport Secutiy** | 0.01 (~ 0)|
+
 <br>
 <br>
 <a href="images/7_Cancellation_Reason_bifurcation.png"><img src="images/7_Cancellation_Reason_bifurcation.png" style="min-width: 500px"></a>
 
-###### Query
-```
-
-```
 <br>
 <br>
 <br>
