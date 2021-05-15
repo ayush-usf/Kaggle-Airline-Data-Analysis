@@ -1,3 +1,8 @@
+<style>
+	pre.highlight{
+		font-size: 13px;
+	}
+</style>
 # Data Analysis:
 
 While going through the variables of the dataset, it was realized that the solutions for the following questions could be obtained by analyzing the dataset:
