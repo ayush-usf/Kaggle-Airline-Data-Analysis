@@ -385,6 +385,7 @@ WHERE
   af.Airport = df.Airport
   AND af.Carrier = df.Carrier
 ```
+
 ###### Overall Delays at Top 5 Airports with top 5 airlines
 <a href="images/4_Delay_bifurcation.png"><img src="images/4_Delay_bifurcation.png" style="min-width: 600px"></a>
  
