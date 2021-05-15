@@ -565,7 +565,6 @@ WITH top_5_airports as (
   from udf_result
 ```
 
-<br>
 #### Overall Delay Time Frequency with Top 5 Airports (UDF Function)
 
 <a href="images/8_Overall_delays_cnt.png"><img src="images/8_Overall_delays_cnt.png" style="min-width: 500px"></a>
