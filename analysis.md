@@ -398,6 +398,9 @@ WHERE
 > ### Next we find out the time period with maximum delays and cancellations
 
 ---
+
+<br>
+
 ## Overall Cancellation/Delays Yearwise
 
 > ###### Query
