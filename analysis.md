@@ -286,25 +286,23 @@ ORDER BY
 <br>
 <br>
 
-## Top Cancellation Reasons at the Most Busiest Airport (Atlanta)
+### Top Cancellation Reasons at the Most Busiest Airport (Atlanta)
 
 |S No.| Reason | Cancellation (in %) |
 | - | - | - | -
 | 1. | **Weather** | 74.6|
 | 2. | **Airline/Carrier Delays** | 17.4|
 | 3. | **National Air System** | 8|
+
 <br>
+
 <a href="images/8_Cancellation_Reason_top_airport_ATL.png"><img src="images/8_Cancellation_Reason_top_airport_ATL.png" style="min-width: 500px"></a>
-
-###### Query
-```
-
-```
 
 <br>
 <br>
 
 - #### Overall Delays in Top 5 Airports with top 5 airlines
+
 <a href="images/4_Delay_bifurcation.png"><img src="images/4_Delay_bifurcation.png" style="min-width: 600px"></a>
  
 <br>
