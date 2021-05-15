@@ -185,8 +185,8 @@ WHERE
 
 ###### Results
 
-S No.| Airport Code | Airport Name | Cancellation (in %) |
-- | - | - | - | -
+| S No.| Airport Code | Airport Name | Cancellation (in %) |
+| - | - | - | - | -
 | 1. | **ORD** | (O'Hare International Airport) | 39|
 | 2. | **DFW** | (Dallas/Fort Worth International Airport) | 28.5|
 | 3. | **ATL** | (Hartsfield-Jackson Atlanta International Airport) | 14.9|
