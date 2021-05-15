@@ -204,12 +204,13 @@ WHERE
 
 <br>
 <br>
+
 ---
 
 ## Top Cancellation Reasons in Top 5 Busiest Airports
 
 | S No.| Reason | Cancellation (in %) |
-| - | - | - | -
+| - | - | - |
 | 1. | **Weather** | 53.7|
 | 2. | **Airline/Carrier Delays** | 25.4|
 | 3. | **National Air System** | 20.9|
