@@ -198,7 +198,7 @@ WHERE
 
 <br><br>
 
-#### Airline-wise Cancellation Bifircation
+#### Airline-wise Cancellation Bifurcation
 <br>
 <a href="images/3_Cancellation_bifurcation.png"><img src="images/3_Cancellation_bifurcation.png" style="min-width: 600px"></a>
 
