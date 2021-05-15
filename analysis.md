@@ -286,7 +286,8 @@ ORDER BY
 <br>
 <br>
 
-### Top Cancellation Reasons at the Most Busiest Airport (Atlanta)
+### Top Cancellation Reasons at the Most Busiest Airport in practice (Atlanta)
+- Atlanta is one of the largest inter-connect points for flights in USA
 
 |S No.| Reason | Cancellation (in %) |
 | - | - | - | -
