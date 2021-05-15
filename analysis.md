@@ -450,10 +450,8 @@ WHERE
 ORDER BY
   c.year
 ```
-<br>
+#### Overall Cancellation/Delays Yearwise
 
-##### Overall Cancellation/Delays Yearwise
-<br>
 <a href="images/5_yearwise_delays_cancalltions.png"><img src="images/5_yearwise_delays_cancalltions.png" style="min-width: 800px"></a>
 
 <br>
