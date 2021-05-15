@@ -569,8 +569,12 @@ WITH top_5_airports as (
 
 <a href="images/8_Overall_delays_cnt.png"><img src="images/8_Overall_delays_cnt.png" style="min-width: 500px"></a>
 
+<br>
+<br>
 
 ## Overall Delay Frequency for 2018 (Year with max delays and cancellations)
+
+<br>
 
 ![](images/Overall_delay_cnt_2018.png)
 
