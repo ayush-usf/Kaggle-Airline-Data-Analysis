@@ -16,6 +16,7 @@ While going through the variables of the dataset, it was realized that the solut
 ---
 
 An in-depth analysis was carried out to obtain the following insights from the data.
+- We will analyze the data based on count, date and time frequency for granualar analysis.
 
 ---
 
