@@ -28,18 +28,16 @@ An in-depth analysis was carried out to obtain the following insights from the d
 ```
 -- SQL Query : Top 5 busiest airport and top 5 busiest airlines
 WITH top_5_airports AS (
-		SELECT
-			ORIGIN,
-			COUNT(ORIGIN) AS count
-		FROM
-			airline-delay-canc.airlines_data.delay_canc_data
-		GROUP BY
-			1
-		HAVING
-			count > 100000
-		ORDER BY
-			2 DESC
-		LIMIT 5
+	SELECT ORIGIN, COUNT(ORIGIN) AS count
+	FROM
+		airline-delay-canc.airlines_data.delay_canc_data
+	GROUP BY
+		1
+	HAVING
+		count > 100000
+	ORDER BY
+		2 DESC
+	LIMIT 5
 	),
 	top_5_airlines AS (
 		SELECT
