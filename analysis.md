@@ -486,6 +486,7 @@ ORDER BY
 ## Overall Delay Time Frequency with Top 5 Airports (2009-2018)
 
 > ###### Query
+
 ```
 CREATE TEMP FUNCTION delay_bifurcation(slot_cnt ARRAY<STRUCT<slot int64,count int64>>)
    RETURNS STRUCT<cnt_1_30 float64, cnt_30_2 float64, cnt_2_5 float64, cnt_5_24 float64, cnt_24 float64>
@@ -563,6 +564,9 @@ WITH top_5_airports as (
       slot_struct.cnt_24 as cnt_1d_more
   from udf_result
 ```
+
+<br>
+#### Overall Delay Time Frequency with Top 5 Airports (2009-2018)
 
 <a href="images/8_Overall_delays_cnt.png"><img src="images/8_Overall_delays_cnt.png" style="min-width: 500px"></a>
 
