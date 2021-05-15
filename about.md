@@ -81,8 +81,6 @@ Longitude Decimal Degrees|Floating point [-180,180]|-84.427
 
 ### Fields Data Preview
 
-<br>
-
 <details>
     <summary>Main Dataset</summary>
     <br>
@@ -98,7 +96,7 @@ Longitude Decimal Degrees|Floating point [-180,180]|-84.427
     <a href="images/main_dataset_2.png" target="_blank"><img src="images/main_dataset_2.png" style="min-width: 1200px;"></a>
 
 </details>
-
+<br>
 
 <details>
     <summary>Auxillary Dataset</summary>
