@@ -306,7 +306,7 @@ ORDER BY
 ## Next, we look at the delays
 ---
 
-### Overall Delays at Top 5 Airports with top 5 airlines
+### Overall Delays at Top 5 Airports for top 5 airlines
 
 > ###### Query
 ```
