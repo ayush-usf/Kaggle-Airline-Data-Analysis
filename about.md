@@ -99,7 +99,6 @@ Longitude Decimal Degrees|Floating point [-180,180]|-84.427
 
 </details>
 
-<br>
 
 <details>
     <summary>Auxillary Dataset</summary>
